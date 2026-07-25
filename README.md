@@ -30,23 +30,28 @@ roadA – Traffic light status for Road A
 roadB – Traffic light status for Road B
 
 Technologies Used
+
 Verilog HDL
 Finite State Machine (FSM)
 Digital Logic Design
 ModelSim/Xilinx Vivado (Simulation)
 
 Project Structure
+
 traffic_light_controller.v – Verilog design module
 traffic_light_controller_tb.v – Testbench for simulation
 
 Simulation
+
 The design was verified using a Verilog testbench. Simulation confirms the correct sequence of traffic light transitions and proper timing between states.
 
 Applications
+
 Road intersection traffic management
 Smart transportation systems
 
 Future Enhancements
+
 Pedestrian crossing support
 Emergency vehicle priority
 
