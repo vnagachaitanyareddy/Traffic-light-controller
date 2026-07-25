@@ -3,6 +3,7 @@ Overview
 This project implements a 2-Way Traffic Light Controller using Verilog HDL and a Finite State Machine (FSM). The controller manages traffic flow at a two-road intersection by switching traffic lights in a predefined sequence to ensure safe and efficient vehicle movement.
 
 Features
+
 Finite State Machine (FSM)-based design
 Controls traffic lights for two intersecting roads
 Automatic state transitions based on timer counts
@@ -11,6 +12,7 @@ Active-high reset for initialization
 Easy to simulate and synthesise on FPGA
 
 State Sequence
+
 The controller follows the sequence below:
 Road A – Green | Road B – Red
 Road A – Yellow | Road B – Red
@@ -19,6 +21,7 @@ Road A – Red | Road B – Yellow
 Repeat the cycle continuously.
 
 Inputs
+
 clk – System clock
 reset – Resets the controller to the initial state
 Outputs
